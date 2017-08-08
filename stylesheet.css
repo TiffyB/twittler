@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+======================================
+Background
+======================================
+*/
+
+body {
+    background-image: url("woodImage.jpg");
+    background-color: #dedede;
+}
+
+
+/*
+======================================
+Tweet style
+======================================
+*/
+
+.tweet {
+	display: block;
+	background: rgba(255, 255, 255, 0.85);
+	font: 400 16px/22px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 10px 30px;
+	box-shadow: 3px 3px 5px #7d7d7d;
+	-moz-box-shadow: 3px 3px 5px #7d7d7d;
+	-webkit-box-shadow: 3px 3px 5px #7d7d7d;
+	border-radius: 10px;
+}
+.username {
+	font: 600 16px/22px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #6161ff;
+	margin: 10px;
+}
+
+.username:hover {
+	color: #a361ff;
+	text-decoration: underline;
+}
+
+.time {
+	color: #7d7d7d;
+	font: 200 14px/20px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 10px;
+}
+
+.refresh {
+	margin-left: 40px;
+	font: 400 20px/24px 'Abel', sans-serif;
+}
+
+.refresh:hover {
+	font-style: italic;
+	text-shadow: 2px 2px #e2e600;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	
+}
+
+.logo {
+	display: block;
+	font: 400 48px/48px 'Lobster', cursive;
+	width: 200px;
+	margin: 10px auto;
+}
+
+.logo:hover {
+	text-shadow: 2px 2px #e2e600;
+}
+

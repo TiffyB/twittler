@@ -1,27 +1,22 @@
+<!--Instructions:
+1) Show the user new tweets somehow. (You can show them automatically as they're created, or create a button that displays new tweets.)
+2) Display the timestamps of when the tweets were created. This timestamp should reflect the actual time the tweets were created, and should not just be hardcoded.
+3) Design your interface so that you want to look at and use the product you're making.
+4) Allow the user to click on a username to see that user's timeline.
+-->
+
+
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" >
+    <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet">
     <script src="jquery.js"></script>
     <script src="data_generator.js"></script>
+    <script src="jquery_script.js"></script>
   </head>
   <body>
-    <script>
-
-      $(document).ready(function(){
-        var $body = $('body');
-        $body.html('');
-
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var $tweet = $('<div></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($body);
-          index -= 1;
-        }
-
-      });
-
-    </script>
+    
   </body>
 </html>
